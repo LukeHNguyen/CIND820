@@ -2,10 +2,10 @@
 Final project for the CIND820
 
 Contents
-  src/ - This directory contains the source code for the project.
-  data/ - This directory contains the data used in the project, if applicable.
-  LICENSE.md - This file contains the license agreement for the project.
-  README.md - This file provides an overview of the project and the repository contents.
+ - src/ - This directory contains the source code for the project.
+ - data/ - This directory contains the data used in the project, if applicable.
+ - LICENSE.md - This file contains the license agreement for the project.
+ - README.md - This file provides an overview of the project and the repository contents.
 
 Project stages:
  - Data collection and preparation: Completed
