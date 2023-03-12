@@ -18,8 +18,8 @@ Project stages:
     + Tuning the 2 models hyperparameter
 
 Initial Results:
- - Decision tree
- - Support Vector Machine
+ - Decision Tree MSE: 34214.95047265146
+ - SVM MSE: 27029.863705540407
 
 Getting Started
   To get started with the project, clone the repository to your local machine and follow the instructions in the README.md file.
