@@ -1,11 +1,23 @@
 Contents
-src/ - This directory contains the source code for the project.
-data/ - This directory contains the data used in the project, if applicable.
-LICENSE.md - This file contains the license agreement for the project.
-README.md - This file provides an overview of the project and the repository contents.
+  src/ - This directory contains the source code for the project.
+  data/ - This directory contains the data used in the project, if applicable.
+  LICENSE.md - This file contains the license agreement for the project.
+  README.md - This file provides an overview of the project and the repository contents.
+
+Tentative stages:
+ - Data collection and preparation: Completed. All missing data were removed, observation which have sufficient attributes have been cleaned using regression imputation
+ - Model selection and training: Completed. 10 fold cross validation was used. The 2 algorithms are Decision Tree and Support Vector Machines
+ - Model evaluation: using MSE to 
+ - Model optimization: not completed, will do in next phase
+     Divide dataset by crop type, then select features and build model for each crop since each of them will be affect differently by weather  
+     Feature selection: RFE and Stepwise Selection
+     Ensemble learning: since 2 models will be built, this technique will be used to improve the overall accuracy of the final outcome.
+
+Initial Result
+ - 
 
 Getting Started
-To get started with the project, clone the repository to your local machine and follow the instructions in the README.md file.
+  To get started with the project, clone the repository to your local machine and follow the instructions in the README.md file.
 
 License
-This project is licensed under the MIT License. See LICENSE.md for details.
+  This project is licensed under the MIT License. See LICENSE.md for details.
